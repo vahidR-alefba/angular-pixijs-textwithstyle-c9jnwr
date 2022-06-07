@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="view" nodeZoomable [canvasElement]="canvas">
+    <div #canvas>
+      <hello [Node]="{ id: 1, x: 400, y: 200 }"> </hello>
+      <hello [Node]="{ id: 2, x: 400, y: 100 }"> </hello>
+      <hello [Node]="{ id: 3, x: 400, y: 300 }"> </hello>
+      <app-rect [Node]="{ id: 4, x: 120, y: 300 }"></app-rect>
+    </div>
+  </div>
+</div>
